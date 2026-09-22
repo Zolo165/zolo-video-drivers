@@ -1,0 +1,235 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "release": "4.0",
+  "networkPreference": "ru-offline-first",
+  "providers": [
+    {
+      "vendor": "10DE",
+      "name": "NVIDIA",
+      "url": "https://www.nvidia.com/Download/index.aspx"
+    },
+    {
+      "vendor": "1002",
+      "name": "AMD",
+      "url": "https://www.amd.com/en/support"
+    },
+    {
+      "vendor": "8086",
+      "name": "Intel",
+      "url": "https://www.intel.com/content/www/us/en/download-center/home.html"
+    }
+  ],
+  "packages": [],
+  "nvencPatches": {
+    "upstream": "https://github.com/keylase/nvidia-patch",
+    "commit": "b68d0ed0c19d20a2c336879be18804b08bb63e89",
+    "versions": {
+      "595.71": {
+        "patchSha256": "ef1957e753b5ebde5d1539ae8a29ce0a89bfc5096551da38a699915e5bd858e9",
+        "edits": [
+          [
+            311969,
+            139,
+            51
+          ],
+          [
+            311970,
+            240,
+            192
+          ],
+          [
+            311971,
+            69,
+            139
+          ],
+          [
+            311972,
+            51,
+            240
+          ],
+          [
+            311973,
+            255,
+            69
+          ],
+          [
+            311974,
+            133,
+            51
+          ],
+          [
+            311975,
+            192,
+            255
+          ]
+        ],
+        "source": "https://raw.githubusercontent.com/keylase/nvidia-patch/b68d0ed0c19d20a2c336879be18804b08bb63e89/win/win10_x64/595.71/nvencodeapi64.1337"
+      },
+      "595.76": {
+        "patchSha256": "ef1957e753b5ebde5d1539ae8a29ce0a89bfc5096551da38a699915e5bd858e9",
+        "edits": [
+          [
+            311969,
+            139,
+            51
+          ],
+          [
+            311970,
+            240,
+            192
+          ],
+          [
+            311971,
+            69,
+            139
+          ],
+          [
+            311972,
+            51,
+            240
+          ],
+          [
+            311973,
+            255,
+            69
+          ],
+          [
+            311974,
+            133,
+            51
+          ],
+          [
+            311975,
+            192,
+            255
+          ]
+        ],
+        "source": "https://raw.githubusercontent.com/keylase/nvidia-patch/b68d0ed0c19d20a2c336879be18804b08bb63e89/win/win10_x64/595.76/nvencodeapi64.1337"
+      },
+      "595.79": {
+        "patchSha256": "ef1957e753b5ebde5d1539ae8a29ce0a89bfc5096551da38a699915e5bd858e9",
+        "edits": [
+          [
+            311969,
+            139,
+            51
+          ],
+          [
+            311970,
+            240,
+            192
+          ],
+          [
+            311971,
+            69,
+            139
+          ],
+          [
+            311972,
+            51,
+            240
+          ],
+          [
+            311973,
+            255,
+            69
+          ],
+          [
+            311974,
+            133,
+            51
+          ],
+          [
+            311975,
+            192,
+            255
+          ]
+        ],
+        "source": "https://raw.githubusercontent.com/keylase/nvidia-patch/b68d0ed0c19d20a2c336879be18804b08bb63e89/win/win10_x64/595.79/nvencodeapi64.1337"
+      },
+      "595.97": {
+        "patchSha256": "ef1957e753b5ebde5d1539ae8a29ce0a89bfc5096551da38a699915e5bd858e9",
+        "edits": [
+          [
+            311969,
+            139,
+            51
+          ],
+          [
+            311970,
+            240,
+            192
+          ],
+          [
+            311971,
+            69,
+            139
+          ],
+          [
+            311972,
+            51,
+            240
+          ],
+          [
+            311973,
+            255,
+            69
+          ],
+          [
+            311974,
+            133,
+            51
+          ],
+          [
+            311975,
+            192,
+            255
+          ]
+        ],
+        "source": "https://raw.githubusercontent.com/keylase/nvidia-patch/b68d0ed0c19d20a2c336879be18804b08bb63e89/win/win10_x64/595.97/nvencodeapi64.1337"
+      },
+      "616.92": {
+        "patchSha256": "821e44b687097decac246372212759b64af969cb74535d7e67e0e361d18938c7",
+        "edits": [
+          [
+            316017,
+            139,
+            51
+          ],
+          [
+            316018,
+            240,
+            192
+          ],
+          [
+            316019,
+            69,
+            139
+          ],
+          [
+            316020,
+            51,
+            240
+          ],
+          [
+            316021,
+            255,
+            69
+          ],
+          [
+            316022,
+            133,
+            51
+          ],
+          [
+            316023,
+            192,
+            255
+          ]
+        ],
+        "source": "https://raw.githubusercontent.com/keylase/nvidia-patch/b68d0ed0c19d20a2c336879be18804b08bb63e89/win/win10_x64/616.92/nvencodeapi64.1337"
+      }
+    }
+  }
+}
